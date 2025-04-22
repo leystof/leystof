@@ -14,7 +14,7 @@ jobs:
         uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          IGNORED_LANGUAGES: YAML JSON TOML MARKDOWN HTML
+          IGNORED_LANGUAGES: YAML JSON TOML MARKDOWN HTML JAVASCRIPT
           CODE_LANG: typescript
           TIME_RANGE: all_time
           SHOW_TOTAL: true
